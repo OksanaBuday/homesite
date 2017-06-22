@@ -1,55 +1,90 @@
-nav {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    float: right;
+*{
+    margin: 0px;
 }
-/** {*/
-/*    margin-top: 0px;*/
-/*    margin-right: 0px;*/
-/*    margin-bottom: 0px;*/
-/*    margin-left: 0px;*/
-/*    padding-top: 0px;*/
-/*    padding-right: 0px;*/
-/*    padding-bottom: 0px;*/
-/*    padding-left: 0px;*/
-  
-   
+
+header {
+    background-image: url("../img/backgroud_girl.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 720px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+header h1 {
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
    
 }
-ul{
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
+
+header p {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    margin: 0 80px;
+    align-items:center;
+}
+ nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-start;
+    list-style-type: none;
+   text-decoration: none;
+   
+}
+ nav ul {
+    
+     display: flex;
+   align-items:flex-end;
+   list-style-type: none;
+    list-style-position: inside;
+    justify-content:space-between;
+    margin: 0px;
+    padding: 10px;
+   
 }
 nav li{
-    float: left;
-    list-style-type: none;
-    list-style-position: inherit;
-    list-style-image: inherit;
+   list-style: none;
+   margin: 0 0px;
+   padding: 0 0px;
+}
+nav li a{
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+     padding: 0 30px;
+     color: black;
 }
 
-
-nav li a {
-    front-size: 40px;
-    front-weight:bold;
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-style:initial;
-    text-decoration-colour:initial;
-    padding-top:0px;
-    padding-right: 30px;
-    padding-bottom:0px;
-    padding-left: 30px;
-    color: black;
-    text-shadow: 0 1px o white;
-}
-.red{
-    color: red;
-}
-.big {
-    font-size: 2rem;
-}
+ /*#about_me h3  { */
+ /*    font-size: 30px;*/
+ /*    margin-top: 10px;*/
+ /*    margin-right: 0px;*/
+ /*    margin-bottom: 5px;*/
+ /*    margin-left: 0px;*/
+ /*    color: black;*/
+ /*    display: flex;*/
+ /*    justify-content:center;*/
+ /*    align-items:center;*/
+ /*}*/
+ /*#about_me img{*/
+ /*   float: right;*/
+ /*   width: 50%;*/
+     
+ /*}*/
+ 
